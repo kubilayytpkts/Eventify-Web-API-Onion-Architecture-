@@ -19,7 +19,7 @@ namespace Eventify.Infrastructure.Services
 				await File.WriteAllTextAsync(path, text);
 			}
 
-			catch (Exception ex)I 
+			catch (Exception ex)
 			{
 
 				Console.WriteLine($"an error occured while saving the text to file {ex.Message}");
